@@ -62,6 +62,5 @@ def filteremp(request):
         return render(request,'filteremp.html')
     else:
         return HttpResponse("nhi h ")
-def rish(request):
-    return render(request,'rish.html')
+
 
